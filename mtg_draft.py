@@ -2,7 +2,7 @@
 """
 Created on Sat Aug 21 11:05:07 2021
 
-@author: heart
+@author: Chris
 """
 from enum import Enum
 import random
@@ -266,7 +266,7 @@ class Player:
 
 def main():
     # use file of set you wish to draft(.dec format)
-    card_set_path = r"C:\Users\heart\Documents\python\MTG Draft\afr.dec"
+    card_set_path = r"afr.dec"
     my_draft = MTGDraft(card_set_path)
     my_draft.start_game()
     
